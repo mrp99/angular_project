@@ -1,0 +1,8 @@
+<mat-card class="mat-elevation-z3">
+  <mat-card-subtitle class="subtitle">Periocidade de Leitura</mat-card-subtitle>
+  <mat-select>
+    <mat-option *ngFor="let timeCorse of timeCorses" [value]="timeCorse">
+        {{timeCorse.name}}
+    </mat-option>
+  </mat-select>
+</mat-card>

@@ -1,0 +1,23 @@
+<mat-card>
+  <mat-card-title class="title">Alterar Livro</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Nome do Livro" [(ngModel)]="book.name" name="name">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Nome do Autor do Livro" [(ngModel)]="book.author" name="author">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Genero" [(ngModel)]="book.gender" name="gender">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Preço (R$)" [(ngModel)]="book.price" name="price">
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="updateBook()" color="primary">
+    Atualizar
+  </button>
+  <button mat-raised-button (click)="cancel()">
+    Cancelar
+  </button>
+</mat-card>

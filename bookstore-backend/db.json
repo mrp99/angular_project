@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "1808",
+      "author": "Laurention Gomes",
+      "gender": "Historia",
+      "price": 49.99
+    },
+    {
+      "id": 2,
+      "name": "Harry Potter",
+      "author": "J.K. Rowling",
+      "gender": "Fantasia",
+      "price": 321.76
+    },
+    {
+      "name": "A Culpa das Estrelas",
+      "author": "John Green",
+      "gender": "Romance",
+      "price": "125.89",
+      "id": 3
+    },
+    {
+      "name": "A Coisa - It",
+      "author": "Stephen King",
+      "category": "Suspense",
+      "price": "123.199",
+      "id": 4,
+      "gender": "Suspense"
+    }
+  ]
+}

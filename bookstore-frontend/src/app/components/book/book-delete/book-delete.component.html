@@ -1,0 +1,23 @@
+<mat-card>
+  <mat-card-title class="title">Deseja deletar este Livro?</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Nome do Livro" [value]="book.name" name="name" disabled>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Nome do Autor do Livro" [value]="book.author" name="author" disabled>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Genero" [value]="book.gender" name="gender" disabled>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Preço (R$)" [value]="book.price" name="price" disabled>
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="deleteBook()" color="warn">
+    Deletar
+  </button>
+  <button mat-raised-button (click)="cancel()">
+    Cancelar
+  </button>
+</mat-card>

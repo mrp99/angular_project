@@ -1,0 +1,26 @@
+mat-table{
+  background-color: #c2b2b2f9;
+}
+
+mat-header-cell{
+  font-weight: bolder;
+  color: #551A8B;
+  font-size: large;
+
+}
+
+mat-cell{
+  color: #551A8B;
+}
+
+.edit {
+  margin-right: 10px;
+}
+
+.edit > i {
+  color: #2f4f4f;
+}
+
+.delete > i {
+  color: #e35e6b;
+}

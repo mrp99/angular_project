@@ -1,0 +1,28 @@
+.paragraf {
+  text-align: justify;
+}
+
+.home .title {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.content{
+  padding: 14px;
+}
+
+.content > mat-card{
+  width: 200px;
+  margin: 12px;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.text-ellipse{
+
+}
